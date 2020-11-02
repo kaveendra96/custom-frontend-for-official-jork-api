@@ -16,7 +16,7 @@ class Jokes extends React.Component{
     render(){
         const { jokes } = this.state
         return(
-            <div>
+            <div className="container">
                 {
                     jokes.map(joke => {
                         return(
